@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_PATH}/goodslist.css">
+    <link rel="stylesheet" href="{CSS_PATH}/public.css">
+    <link rel="stylesheet" href="{CSS_PATH}/footer.css">
+    <script src="{JS_PATH}/rem.js"></script>
+    <style>
+        #hot h3{
+            display: block;
+        }
+        #hot h4{
+            font-size: 0.38rem;
+            color: #363636;
+            margin-left: 0.3rem;
+            white-space: nowrap;
+            display: block;
+            opacity: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="head">
+    <div class="headtop">
+        <a href="index.php?m=index&c=category&a=init">
+            <img src="{IMG_PATH}/fanhui_03_01.png" alt="">
+        </a>
+        <input type="text" placeholder="&#xe615; 搜索（例如：科颜氏）">
+    </div>
+    <div class="headb" id="{$tid}">
+        <div class="type">
+            <span style="color:#1277CC;" class="order">&#xe62c; 销量</span>
+        </div>
+        <div class="type">
+            <span class="price">&#xe62a; 价格</span>
+        </div>
+        <div class="type">
+            <span class="gidcode">&#xe600; 新品</span>
+        </div>
+    </div>
+</div>
+
+<!-- 最热单品开始 -->
+<div id="hot">
+    {foreach $data $v}
+    <a href="index.php?m=index&c=category&a=showcontent&gid={$v['gid']}">
+        <div class="hot_danpin">
+            <img src="{$v['gthumb']}" alt="" class="hot_img">
+            <div class="hot_title">
+                <h3>{$v['gname']}</h3>
+                <span class="hot_rmb">¥{$v['gprice']}</span>
+                <div class="dianzan">
+                    <span class="renshu">1w9</span>
+                </div>
+            </div>
+        </div>
+    </a>
+    {/foreach}
+</div>
+<!-- 最热单品结束 -->
+<script src="{JS_PATH}/jquery.js"></script>
+<script src="{JS_PATH}/getlist.js"></script>
+{include file="index/footer.html"}

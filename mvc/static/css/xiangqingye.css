@@ -1,0 +1,229 @@
+@font-face {
+	font-family: 'iconfont';  /* project id 571230 */
+	src: url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.eot');
+	src: url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.eot?#iefix') format('embedded-opentype'),
+	url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.woff') format('woff'),
+	url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.ttf') format('truetype'),
+	url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.svg#iconfont') format('svg');
+}
+#guanzhu{
+	width: 100%;
+	height: 1.4rem;
+	background-color: #F6F6F6;
+	float: left;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+}
+.guanzhu_top{
+	height: 1.39rem;
+	border-bottom: 1px solid #B1B1B1;
+	line-height: 1.39rem;
+}
+.hanbao{
+	font-size: 0.54rem;
+	color: #979797;
+	margin-left: 0.6rem;
+	float: left;
+}
+.gz{
+	color: #000000;
+	font-size: 0.46rem;
+	text-align: center;
+	margin-left: 4.63rem;
+	float: left;
+}
+
+#picture_zs{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin-top: 1.4rem;
+}
+.zs_img{
+	width: 100%;
+	height: 9.68rem;
+}
+.miaoshu{
+	width: 100%;
+	height: 3.43rem;
+	background-color: #fff;
+	float: left;
+}
+.miaoshu h3{
+	font-size: 0.44rem;
+	color: #363636;
+	margin-left: 0.33rem;
+	float: left;
+	margin-right: 6rem;
+	margin-top: 0.52rem;
+}
+.miaoshu h4{
+	font-size: 0.35rem;
+	color: #9F9F9F;
+	margin-left: 0.33rem;
+	float: left;
+	margin-right: 6rem;
+	margin-top: 0.13rem;
+	font-weight: normal;
+}
+.hot_meiyuan{
+	font-size: 0.44rem;
+	color: #363636;
+	margin-left: 0.33rem;
+	float: left;
+	margin-right: 4rem;
+	margin-top: 0.53rem;
+	font-weight: bold;
+}
+.meizhuang1{
+	width: 2.04rem;
+	height: 0.57rem;
+	float: right;
+	margin-left: 0.17rem;
+	margin-top: 0.5rem;
+	margin-right: 0.54rem;
+}
+.xq_fgx{
+	width: 11.82rem;
+	height: 0.03rem;
+	background-color: #F6F6F6;
+	float: left;
+	margin-left: 0.3rem;
+	margin-top: 0.53rem;
+}
+#color{
+	width: 100%;
+	height: auto;
+	background-color: #fff;
+	float: left;	
+}
+#color h3{
+	color: #363636;
+	font-size: 0.38rem;
+	margin-left: 0.47rem;
+	margin-top: 0.5rem;
+}
+.yanse{
+	width: 11.52rem;
+	height: auto;
+	margin-left: 0.45rem;
+	margin-top: 0.36rem;
+	float: left;
+}
+.xq_fgx1{
+	margin-top: 0.23rem;
+	width: 11.82rem;
+	height: 0.03rem;
+	background-color: #F6F6F6;
+	float: left;
+	margin-left: 0.3rem;
+	float: left;
+}
+#gaishu{
+	width: 100%;
+	height: 10.7rem;
+	background-color: #fff;
+	float: left;
+	margin-bottom: 1.47rem;
+}
+#gaishu h3{
+	color: #363636;
+	font-size: 0.38rem;
+	margin-left: 0.47rem;
+	margin-top: 0.3rem;
+	float: left;
+}
+.chungao{
+	font-size: 0.4rem;
+	color: #363636;
+	float: left;
+	margin-left: 0.47rem;
+	margin-top: 0.2rem;
+}
+.xinghao{
+	font-family: 'iconfont'; 
+	font-size: 0.3rem;
+	float: left;
+	color: #363636;
+	margin-left: 1.72rem;
+	margin-top: 0.6rem;
+}
+.gongxiao{
+	margin-top: 0.5rem;
+	margin-left: 0.2rem;
+	float: left;
+}
+.xianse{
+	font-size: 0.4rem;
+	color: #363636;
+	float: left;
+	margin-top: 0.2rem;
+	margin-right: 5rem;
+	margin-left: 2.1rem;
+}
+.xianse2{
+	font-size: 0.4rem;
+	color: #363636;
+	float: left;
+	font-weight: normal;
+}
+.dian{
+	font-family: 'iconfont'; 
+	color: #363636;
+}
+.xianse1{
+	margin-left: 2.1rem;
+}
+.xq_fgx2{
+	margin-top: 0.62rem;
+}
+#jiaru{
+	width: 100%;
+	height: 1.47rem;
+	background-color: #fff;
+	border-top: 0.03rem solid #ACACAC;
+	float: left;
+	position: relative;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+.jiaru_left{
+	width: 5.52rem;
+	height: 1.47rem;
+	background-color: white;
+}
+.ren1{
+	font-family: 'iconfont'; 
+	font-size: 0.65rem;
+	color: #D2D2D2;
+	margin-left: 0.74rem;
+	float: left;
+	line-height: 1.47rem;
+}
+.xinxin{
+	width: 0.65rem;
+	height: 0.65rem;
+	margin-left: 1.17rem;
+	margin-top: 0.42rem;
+	float: left;
+}
+.xiaodai{
+	margin-left: 1.17rem;
+}
+.jiaru_right{
+	width: 6.9rem;
+	height: 1.49rem;
+	background-color: #363636;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	color: #fff;
+	text-align: center;
+	font-size: 0.48rem;
+	letter-spacing: 0.4rem;
+	line-height: 1.5rem;
+	cursor: pointer;
+}

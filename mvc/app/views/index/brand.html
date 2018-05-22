@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_PATH}/brand.css">
+    <link rel="stylesheet" href="{CSS_PATH}/public.css">
+    <link rel="stylesheet" href="{CSS_PATH}/footer.css">
+    <script src="{JS_PATH}/rem.js"></script>
+</head>
+<body>
+<div class="head">
+    <div class="headtitle">
+        <h3>品牌</h3>
+    </div>
+    <input type="text" placeholder="&#xe615; 搜索品牌">
+</div>
+<div class="bottom">
+    <div class="bleft">
+        {foreach $cats $v}
+        {if $cid==$v['cid']}
+        <div class="btitle">
+            <h3 data-id="{$v['cid']}" style="background: #fff;border-left: 0.01rem solid #333;">{$v['cname']}</h3>
+        </div>
+        {else}
+        <div class="btitle">
+            <h3 data-id="{$v['cid']}">{$v['cname']}</h3>
+        </div>
+        {/if}
+        {/foreach}
+    </div>
+    <div class="bright">
+        <div class="bright1">
+            {foreach $types $v}
+            <a href="index.php?m=index&c=category&a=showlist&tid={$v['tid']}">
+                <div class="category">
+                    <img src="{$v['tthumb']}" alt="">
+                    <h1>{$v['tname']}</h1>
+                </div>
+            </a>
+            {/foreach}
+        </div>
+    </div>
+</div>
+<script src="{JS_PATH}/jquery.js"></script>
+<script src="{JS_PATH}/gettype.js"></script>
+{include file="index/footer.html"}

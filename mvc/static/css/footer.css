@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 571230 */
+    src: url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.eot');
+    src: url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.svg#iconfont') format('svg');
+}
+#footer{
+    width: 100%;
+    height: 1.5rem;
+    background-color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 999;
+}
+.footer_center{
+    width: 11.51rem;
+    height: 1.5rem;
+    margin: 0 auto;
+}
+.shouye_icon{
+    width: 0.84rem;
+    height: 1.5rem;
+    background-color: #fff;
+    margin-left: 0.38rem;
+    float: left;
+    text-align: center;
+    line-height: 0.5rem;
+}
+.shouye_icon2{
+    width: 1.1rem;
+}
+.shouye_color{
+    display: block;
+    font-family: 'iconfont';
+    font-size: 0.55rem;
+    color: #363636;
+    margin-top: 0.2rem;
+}
+.sy_xuanzhong{
+    font-size: 0.28rem;
+    color: #363636;
+    display: block;
+    margin-top: 0.2rem;
+}
+#active span{
+    color: #1277CC;
+}
+#active i{
+    color: #1277CC;
+}
+.shouye_icon1{
+    margin-left: 2.3rem;
+}
+.shangcheng{
+    color: #979797;
+    font-size: 0.28rem;
+}

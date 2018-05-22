@@ -1,0 +1,73 @@
+{include file="admin/header.html"}
+<style>
+    td img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+</style>
+<body>
+
+<div class="panel admin-panel">
+    <div class="panel-head"><strong class="icon-reorder"> 商品列表</strong></div>
+    <div class="padding border-bottom">
+        <a href="index.php?m=admin&c=goods&a=addgoods">
+            <button goods="button" class="button border-yellow"><span class="icon-plus-square-o"></span> 添加商品</button>
+        </a>
+    </div>
+    <table class="table table-hover text-center">
+        <tr>
+            <th width="5%">id</th>
+            <th width="5%">所属分类</th>
+            <th width="5%">商品名称</th>
+            <th width="5%">缩略图</th>
+            <th width="10%">多图片</th>
+            <th width="5%">价格</th>
+            <th width="5%">描述</th>
+            <th width="5%">是否推荐</th>
+            <th width="5%">排序</th>
+            <th width="10%">操作</th>
+        </tr>
+        {foreach $data $v}
+        <tr>
+            <td>{$v["gid"]}</td>
+            <td>{$v["tname"]}</td>
+            <td>{$v["gname"]}</td>
+            <td><img src="{$v['gthumb']}" alt=""></td>
+            <td>
+                {foreach $v["gpictures"] $src}
+                <img src="{$src}" alt="">
+                {/foreach}
+            </td>
+            <td>{$v["gprice"]}</td>
+            <td>{$v["gdescription"]}</td>
+            <td>{$v["grecommend"]}</td>
+            <td>{$v["gorder"]}</td>
+            <td>
+                <div class="button-group">
+                    <a class="button border-main" href="index.php?m=admin&c=goods&a=updategoods&id={$v['gid']}"><span class="icon-edit"></span> 修改</a>
+                    <a class="button border-red" href="index.php?m=admin&c=goods&a=delgoods&id={$v['gid']}"><span class="icon-trash-o"></span>
+                    删除</a></div>
+            </td>
+        </tr>
+        {/foreach}
+        <tr>
+            <td colspan="10">
+                <div class="pagelist">
+                    {$str}
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<script goods="text/javascript">
+    function del(id, mid) {
+        if (confirm("您确定要删除吗?")) {
+
+        }
+    }
+
+</script>
+</body>
+</html>

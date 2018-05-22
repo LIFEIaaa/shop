@@ -1,0 +1,177 @@
+@font-face {
+	font-family: 'iconfont';  /* project id 571230 */
+	src: url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.eot');
+	src: url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.eot?#iefix') format('embedded-opentype'),
+	url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.woff') format('woff'),
+	url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.ttf') format('truetype'),
+	url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.svg#iconfont') format('svg');
+}
+body{
+	background: #F7F7F7;
+}
+#toubu{
+	width: 100%;
+	height: 3.37rem;
+	background-color: #F6F6F6;
+}
+.xinfeng{
+	font-family: 'iconfont';
+	color: #363636;
+	float: right;
+	margin-right: 0.93rem;
+	margin-top: 0.15rem;
+	font-size: 0.55rem;
+}
+.shezhi{
+	font-family: 'iconfont';
+	color: #363636;
+	float: right;
+	margin-right: 0.93rem;
+	margin-top: 0.15rem;
+	font-size: 0.55rem;
+}
+.circle{
+	width: 1.95rem;
+	height: 1.95rem;
+	border: 1px solid #999999;
+	border-radius: 50%;
+	float: left;
+	margin-left: 0.54rem;
+	margin-top: 0.92rem;
+	overflow: hidden;
+}
+.wo_touxiang{
+	width: 2rem;
+	height: 2rem;
+	margin-top: -0.02rem;
+	margin-left: -0.03rem;
+}
+.mingcheng{
+	font-size: 0.38rem;
+	color: #4E4E4E;
+	float: left;
+	margin-top: 1.65rem;
+	margin-left: 0.57rem;
+	font-weight: bold;
+}
+#shoucang{
+	width: 100%;
+	height: 2.86rem;
+	background-color: #fff;
+}
+.shoucang_center{
+	/* height: 100%; */
+	margin: 0 auto;
+}
+.shoucang1{
+	width: 3.28rem;
+	height: 2.16rem;
+	margin-left: 0.41rem;
+	margin-top: 0.39rem;
+	float: left;
+	color: #363636;
+	font-size: 0.36rem;
+	text-align: center;
+}
+.xin{
+	width: 0.7rem;
+	height: 0.63rem;
+	margin: auto;
+	margin-top: 0.48rem;
+	margin-bottom: 0.32rem;
+}
+.shoucang2{
+	margin-left: 0.9rem;
+}
+.huise{
+	width: 100%;
+	height: 0.3rem;
+	background: #F7F7F7;
+}
+.dingdan{
+	width: 100%;
+	height: 1.31rem;
+	border-bottom: 0.01rem solid #E3E3E3;
+	line-height: 1.31rem;
+	background: #fff;
+}
+.mydd{
+	font-size: 0.44rem;
+	color: #666666;
+	float: left;
+	margin-left: 0.56rem;
+}
+.chakan{
+	font-size: 0.32rem;
+	color: #A9A9A9;
+	float: right;
+	margin-right: 0.54rem;
+}
+.wuliu{
+	width: 100%;
+	height: 2.01rem;
+	background: #fff;
+}
+.fukuan{
+	width: 1.66rem;
+	height: 2.01rem;
+	float: left;
+	margin-left: 0.41rem;
+	text-align: center;
+}
+.fukuanbtn{
+	font-family: 'iconfont';
+	font-size: 0.58rem;
+	color: #363636;
+	margin-top: 0.4rem;
+	display: block;
+}
+.daiding{
+	font-size: 0.32rem;
+	color: #666666;
+	text-align: center;
+	display: block;
+	margin-top: 0.1rem;
+}
+.fukuan1{
+	margin-left: 0.83rem;
+}
+.yaoqing{
+	width: 100%;
+	height: 1.32rem;
+	background: #fff;
+	line-height: 1.32rem;
+}
+.yaoqingbtn{
+	font-family: 'iconfont';
+	color: #363636;
+	float: left;
+	margin-left: 0.55rem;
+	font-size: 0.55rem;
+}
+.yaoqingren{
+	font-size: 0.44rem;
+	color: #C62E40;
+	margin-left: 0.42rem;
+	float: left;
+}
+.youjiantou{
+	font-size: 0.38rem;
+	color: #9A9A9A;
+	float: right;
+	margin-right: 0.54rem;
+}
+.yaoqing1{
+	border-bottom: 0.01rem solid #F5F5F5;
+}
+.kefu{
+	color: #777777;
+}
+.about{
+	margin-bottom: 1.5rem;
+}
+#logout span{
+	text-align: center;
+}
+
+

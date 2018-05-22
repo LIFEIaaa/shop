@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="{JS_PATH}/rem.js"></script>
+    <link rel="stylesheet" href="{CSS_PATH}/nameupdate.css">
+    <link rel="stylesheet" href="{CSS_PATH}/public.css">
+</head>
+<body>
+<!-- 头部开始 -->
+<div id="guanzhu">
+    <div class="guanzhu_top">
+        <a href="index.php?m=index&c=my&a=setting"><span class="hanbao">&lt;</span></a>
+        <div class="gz_box">
+            <span class="gz">修改昵称</span>
+        </div>
+    </div>
+</div>
+<!-- 头部结束 -->
+<form action="index.php?m=index&c=my&a=checkupdate" method="post">
+<input type="text" value="{$data['username']}" placeholder="请输入昵称" name="username" class="name">
+    <input type="hidden" name="phone" value="{$data['phone']}">
+<input type="submit" value="保存" class="save">
+</form>
+</body>
+</html>

@@ -1,0 +1,235 @@
+@font-face {
+	font-family: 'iconfont';  /* project id 571230 */
+	src: url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.eot');
+	src: url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.eot?#iefix') format('embedded-opentype'),
+	url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.woff') format('woff'),
+	url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.ttf') format('truetype'),
+	url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.svg#iconfont') format('svg');
+}
+body{
+	font-size: 12px;
+	background-color: #Fff;
+}
+#guanzhu{
+	width: 100%;
+	height: 1.4rem;
+	background-color: #F6F6F6;
+	float: left;
+	position: fixed;
+	z-index: 1;
+}
+.guanzhu_top{
+	width: 100%;
+	height: 1.39rem;
+	border-bottom: 1px solid #B1B1B1;
+}
+.hanbao{
+	font-size: 0.54rem;
+	color: #979797;
+	margin-left: 0.6rem;
+	float: left;
+	line-height: 1.39rem;
+}
+.gz_box{
+	float: left;
+	margin-left: 4.09rem;
+	line-height: 1.39rem;
+}
+.gz{
+	color: #000000;
+	font-size: 0.46rem;
+	text-align: center;
+}
+
+#feilei{
+	width: 100%;
+	height: 1.19rem;
+	background-color: #F7F7F7;
+	float: left;
+	display: flex;
+	overflow-x: scroll; 
+}
+#feilei::-webkit-scrollbar{
+	display: none;    /* 滚动条隐藏 */
+	/* display: block; */     /* 滚动条显示 */
+}
+.hufu{
+	width: 1.83rem;
+	height: 1.19rem;
+	margin-left: 0.27rem;
+	color: #000000;
+	text-align: center;
+	line-height: 1.13rem;
+	float: left;
+}
+.xiahuaxian{
+	width: 1.83rem;
+	height: 0.06rem;
+	background-color: #454545;
+}
+.xiahuaxian1{
+	visibility: hidden;
+}
+#remai_pinpai{
+	width: 100%;
+	height: 10.35rem;
+	float: left;
+	background-color: #fff;
+}
+.remai_di{
+	width: 1.95rem;
+	height: 0.63rem;
+	background-color: #F7F7F7;
+	margin-left: 0.45rem;
+	margin-top: 0.45rem;
+	color: #363636;
+	font-size: 0.38rem;
+	text-align: center;
+}
+.remai_pp{
+	width: 11.31rem;
+	height: 5.48rem;
+	margin-left: 0.53rem;
+	margin-top: 0.63rem;
+}
+.remai_pp1{
+	width: 1.94rem;
+	height: 2.7rem;
+	background-color: #fff;
+	float: left;
+	text-align: center;
+}
+.pinpaiimg{
+	width: 1.69rem;
+	height: 2rem;
+	margin: 0 auto;
+}
+.yashi{
+	color: #383838;
+	font-size: 0.32rem;
+}
+.remai_pp2{
+	margin-left: 0.4rem;
+}
+.remai_pp3{
+	margin-top: 0.67rem;
+}
+
+
+
+.sousuo{
+	width: 11.51rem;
+	height: 0.9rem;
+	margin: 0 auto;
+	margin-top: 1.5rem;
+	position: relative;
+}
+.search{
+	width: 11.51rem;
+	height: 0.9rem;
+	background-color: #F5F5F5;
+	border-radius: 0.5rem;
+	outline: none;
+	border: 0;
+	color: #B7B7B7;
+	font-family: 'iconfont';
+	padding-left: 2.26rem;
+	font-size: 0.38rem;
+	
+} 
+.jingxuan{
+	position: absolute;
+	top: 0.2rem;
+	left: 0.27rem;
+	width: 1.9rem;
+	height: 0.51rem;
+}
+#hot{
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+.danpin{
+	width: 100%;
+	height: 0.99rem;
+	background-color: #F7F7F7;
+	color: #363636;
+	font-size: 0.4rem;
+	text-align: center;
+	line-height: 0.99rem;
+}
+.hot_danpin{
+	width: 50%;
+	height: 11.25rem;
+	background-color: #fff;
+	float: left;
+}
+.hot_danpin1{
+	margin-bottom: 1.5rem;
+}
+.hot_img{
+	width: 100%;
+	height: 8.7rem;
+}
+.hot_title{
+	width: 100%;
+	height: 2.55rem;
+}
+.hot_title h3{
+	font-size: 0.35rem;
+	color: #363636;
+	margin-left: 0.33rem;
+	float: left;
+	font-weight: normal;
+	margin-right: 2rem;
+}
+.hot_title1 h3{
+	margin-right: 0;
+}
+.hot_title h4{
+	font-size: 0.35rem;
+	color: #9F9F9F;
+	margin-left: 0.33rem;
+	float: left;
+	margin-right: 2rem;
+	margin-top: 0.13rem;
+}
+.hot_meiyuan{
+	font-size: 0.35rem;
+	color: #363636;
+	margin-left: 0.33rem;
+	float: left;
+	margin-right: 5rem;
+	margin-top: 0.13rem;
+}
+.hot_rmb{
+	font-size: 0.35rem;
+	color: #363636;
+	margin-left: 0.33rem;
+	float: left;
+	margin-top: 0.13rem;
+}
+.meizhuang{
+	width: 2.04rem;
+	height: 0.57rem;
+	float: left;
+	margin-left: 0.17rem;
+	margin-top: 0.13rem;
+}
+.dianzan{
+	width: 1.56rem;
+	height: 0.57rem;
+	float: right;
+	margin-top: 0.13rem;
+}
+.xin{
+	width: 0.57rem;
+	height: 0.57rem;
+	float: left;
+}
+.renshu{
+	font-size: 0.28rem;
+	color: #999999;
+	float: left;
+	line-height: 0.57rem;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>玩美彩妆</title>
+    <link rel="stylesheet" href="{CSS_PATH}/index.css">
+    <link rel="stylesheet" href="{CSS_PATH}/public.css">
+    <link rel="stylesheet" href="{CSS_PATH}/footer.css">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="{JS_PATH}/rem.js"></script>
+</head>
+<body>
+<!-- 头部开始 -->
+<div id="guanzhu">
+    <div class="guanzhu_top">
+        <span class="hanbao">&#xe615;</span>
+        <div class="gz_box">
+            <span class="gz">玩美</span>
+        </div>
+    </div>
+</div>
+
+<!-- 头部结束 -->
+
+<!-- 最新开始 -->
+<div id="latest">
+    <div class="hufu">
+        <span>最新</span>
+        <div class="xiahuaxian"></div>
+    </div>
+    <div class="hufu">
+        <span>鞋靴箱包</span>
+        <div class="xiahuaxian xiahuaxian1"></div>
+    </div>
+    <div class="hufu">
+        <span>男款精品</span>
+        <div class="xiahuaxian xiahuaxian1"></div>
+    </div>
+    <div class="hufu">
+        <span>母婴儿童</span>
+        <div class="xiahuaxian xiahuaxian1"></div>
+    </div>
+    <div class="hufu">
+        <span>护肤美妆</span>
+        <div class="xiahuaxian xiahuaxian1"></div>
+    </div>
+    <div class="hufu">
+        <span>健康养颜</span>
+        <div class="xiahuaxian xiahuaxian1"></div>
+    </div>
+    <div class="hufu">
+        <span>服饰配饰</span>
+        <div class="xiahuaxian xiahuaxian1"></div>
+    </div>
+    <div class="hufu">
+        <span>时尚科技</span>
+        <div class="xiahuaxian xiahuaxian1"></div>
+    </div>
+    <div class="hufu">
+        <span>户外行动</span>
+        <div class="xiahuaxian xiahuaxian1"></div>
+    </div>
+</div>
+<!-- 最新结束 -->
+
+<!-- banner开始 -->
+<div id="banner">
+    <img src="{IMG_PATH}/banner.png" alt="">
+    <div class="lunbo">
+        <div class="lunbo1"></div>
+        <div class="lunbo1 lunbo2"></div>
+        <div class="lunbo1 lunbo2"></div>
+        <div class="lunbo1 lunbo2 lunbo3"></div>
+        <div class="lunbo1 lunbo2"></div>
+        <div class="lunbo1 lunbo2"></div>
+        <div class="lunbo1 lunbo2"></div>
+    </div>
+</div>
+<!-- banner结束 -->
+
+<!-- 热卖品牌开始 -->
+<div id="remai_pinpai">
+    <div class="remai_pp">
+        {foreach $data $v}
+        <div class="remai_pp1">
+            <a href="index.php?m=index&c=category&a=showcategory&cid={$v['cid']}">
+                <img src="{$v['cthumb']}" alt="" class="pinpaiimg">
+                <span class="yashi">{$v['cname']}</span>
+            </a>
+        </div>
+        {/foreach}
+    </div>
+</div>
+<!-- 热卖品牌结束 -->
+
+<!-- 热卖开始 -->
+<div class="remai">
+    <a href="index.php?m=index&c=category&a=init">
+        <div class="remai_top">
+            <h2>热卖榜单</h2>
+            <span class="dianji">点击进入<i class="jiantou">&gt;</i></span>
+        </div>
+    </a>
+    <ul class="remai_bottom">
+        <li class="remai_1">
+            <img src="{IMG_PATH}/remai_03.png" alt="" class="kouhong">
+            <span class="meiyuan">$17.50</span>
+        </li>
+        <li class="remai_1 remai_2">
+            <img src="{IMG_PATH}/remai_05.png" alt="" class="kouhong">
+            <span class="meiyuan">$17.50</span>
+        </li>
+        <li class="remai_1 remai_2">
+            <img src="{IMG_PATH}/remai_07.png" alt="" class="kouhong">
+            <span class="meiyuan">$17.50</span>
+        </li>
+        <li class="remai_1 remai_2">
+            <img src="{IMG_PATH}/remai_09.png" alt="" class="kouhong">
+            <span class="meiyuan">$17.50</span>
+        </li>
+        <li class="remai_1 remai_2">
+            <img src="{IMG_PATH}/remai_11.png" alt="" class="kouhong">
+            <span class="meiyuan">$17.50</span>
+        </li>
+        <li class="remai_1 remai_2">
+            <img src="{IMG_PATH}/remai_13.png" alt="" class="kouhong">
+            <span class="meiyuan">$17.50</span>
+        </li>
+        <li class="remai_1 remai_2">
+            <img src="{IMG_PATH}/kouhong_60.png" alt="" class="kouhong">
+            <span class="meiyuan">$17.50</span>
+        </li>
+    </ul>
+</div>
+<!-- 热卖结束 -->
+
+<!-- 商品开始 -->
+<div class="shangpin">
+    {foreach $gdata $v}
+    <a href="index.php?m=index&c=category&a=showcontent&gid={$v['gid']}">
+        <div class="shangpin_center">
+            <img src="{$v['gthumb']}" alt="" class="shangpin1">
+            <div class="shangpin_right">
+                <div class="shijian">
+                    <span>02/22</span>
+                </div>
+                <h2>{$v['gname']}</h2>
+                <p class="sp_wenzi">{$v['gdescription']}</p>
+                <p class="sp_wenzi">小屁桃 推荐</p>
+            </div>
+        </div>
+    </a>
+    {/foreach}
+</div>
+<!-- 商品结束 -->
+
+<!-- 新手开始 -->
+<div class="remai">
+    <div class="remai_top">
+        <h2>新手专区</h2>
+        <span class="fenjie">| 适用100美元新人大礼包</span>
+        <span class="dianji">点击进入<i class="jiantou">&gt;</i></span>
+    </div>
+    <ul class="remai_bottom">
+        <li class="remai_1">
+            <img src="{IMG_PATH}/xinren_03.png" alt="" class="kouhong">
+            <span class="meiyuan">$298</span>
+        </li>
+        <li class="remai_1 remai_2">
+            <img src="{IMG_PATH}/xinren_05.png" alt="" class="kouhong">
+            <span class="meiyuan">$17.50</span>
+        </li>
+        <li class="remai_1 remai_2">
+            <img src="{IMG_PATH}/xinren_07.png" alt="" class="kouhong">
+            <span class="meiyuan">$168</span>
+        </li>
+        <li class="remai_1 remai_2">
+            <img src="{IMG_PATH}/xinren_09.png" alt="" class="kouhong">
+            <span class="meiyuan">$28</span>
+        </li>
+        <li class="remai_1 remai_2">
+            <img src="{IMG_PATH}/xinren_11.png" alt="" class="kouhong">
+            <span class="meiyuan">$13.99</span>
+        </li>
+        <li class="remai_1 remai_2">
+            <img src="{IMG_PATH}/xinren_13.png" alt="" class="kouhong">
+            <span class="meiyuan">$74.75</span>
+        </li>
+        <li class="remai_1 remai_2">
+            <img src="{IMG_PATH}/kouhong_60.png" alt="" class="kouhong">
+            <span class="meiyuan">$17.50</span>
+        </li>
+    </ul>
+</div>
+<!-- 新手结束 -->
+
+<!-- 商品开始 -->
+<div class="shangpin goods">
+    <a href="">
+        {foreach $gdata $v}
+        <div class="shangpin_center">
+            <img src="{$v['gthumb']}" alt="" class="shangpin1">
+            <div class="shangpin_right">
+                <div class="shijian">
+                    <span>02/22</span>
+                </div>
+                <h2>{$v['gname']}</h2>
+                <p class="sp_wenzi">{$v['gdescription']}</p>
+                <p class="sp_wenzi">小屁桃 推荐</p>
+            </div>
+        </div>
+        {/foreach}
+    </a>
+</div>
+<!-- 商品结束 -->
+{include file="index/footer.html"}

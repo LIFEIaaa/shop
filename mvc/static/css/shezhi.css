@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 571230 */
+    src: url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.eot');
+    src: url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.svg#iconfont') format('svg');
+}
+body{
+    font-size: 12px;
+    background-color: #F7F7F7;
+}
+#guanzhu{
+    width: 100%;
+    height: 1.4rem;
+    background-color: #F6F6F6;
+    float: left;
+    position: fixed;
+    z-index: 1;
+}
+.guanzhu_top{
+    width: 100%;
+    height: 1.39rem;
+    border-bottom: 1px solid #B1B1B1;
+}
+.hanbao{
+    font-size: 0.54rem;
+    color: #979797;
+    margin-left: 0.6rem;
+    float: left;
+    line-height: 1.39rem;
+}
+.gz_box{
+    float: left;
+    margin-left: 4.62rem;
+    line-height: 1.39rem;
+}
+.gz{
+    color: #000000;
+    font-size: 0.46rem;
+    text-align: center;
+}
+.info{
+    width: 100%;
+    float: left;
+    height: 2.4rem;
+    background: #fff;
+    margin-top: 1.7rem;
+}
+.picture{
+    width: 1.51rem;
+    height: 1.51rem;
+    border-radius: 50%;
+    background: pink;
+    margin-top: 0.45rem;
+    margin-left: 0.45rem;
+    overflow: hidden;
+    float: left;
+}
+.info p{
+    line-height: 2.4rem;
+    color: #363636;
+    display: block;
+    float: left;
+    margin-left: 0.48rem;
+}
+.info i{
+    color: #C7C7CC;
+    float: right;
+    line-height: 2.4rem;
+    font-size: 0.44rem;
+    font-weight: bold;
+    margin-right: 0.6rem;
+}
+.accept{
+    width: 100vw;
+    height: 3.96rem;
+    background: #fff;
+    margin-top: 0.3rem;
+    float: left;
+}
+.accept1{
+    width: 100vw;
+    height: 1.31rem;
+    border-bottom: 0.01rem solid #F6F6F6;
+    background: #fff;
+}
+.accept1 p{
+    font-size: 0.44rem;
+    color: #666666;
+    float: left;
+    display: block;
+    line-height: 1.31rem;
+    margin-left: 0.38rem;
+}
+.accept1 i{
+    color: #C7C7CC;
+    float: right;
+    line-height: 1.31rem;
+    font-size: 0.44rem;
+    font-weight: bold;
+    margin-right: 0.6rem;
+}
+.not{
+    float: right;
+    margin-right: 0.36rem;
+    font-size: 0.38rem;
+    color: #FF0000;
+    line-height: 1.31rem;
+}
+.zhao{
+    color: #999999;
+}
+.accept2{
+    border-bottom: none;
+}
+.xieyi{
+    background: #fff;
+    float: left;
+    width: 100vw;
+    height: 1.31rem;
+    margin-top: 0.3rem;
+}
+#logout p.close{
+    text-align: center;
+    line-height: 1.31rem;
+    font-size: 0.44rem;
+    color: #666;
+}

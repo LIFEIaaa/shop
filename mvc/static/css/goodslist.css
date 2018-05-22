@@ -1,0 +1,145 @@
+@font-face {
+    font-family: 'iconfont';  /* project id 571230 */
+    src: url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.eot');
+    src: url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.eot?#iefix') format('embedded-opentype'),
+    url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.woff') format('woff'),
+    url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.ttf') format('truetype'),
+    url('https://at.alicdn.com/t/font_571230_ejgaveo8c4pwrk9.svg#iconfont') format('svg');
+}
+.head{
+    width: 100vw;
+    height: 2.49rem;
+    background: #F6F6F6;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.headtop{
+    width: 100%;
+    height: 1.31rem;
+    border-bottom: 0.01rem solid #ADADAD;
+}
+.headtop img{
+    width: 1rem;
+    height: 1.28rem;
+    margin-left: 0.41rem;
+    float: left;
+}
+input{
+    outline: none;
+    border: none;
+    width: 9.99rem;
+    height: 0.84rem;
+    background: #fff;
+    font-family: 'iconfont';
+    border-radius: 0.2rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.22rem;
+    margin-left: 0.3rem;
+    padding-left: 0.23rem;
+    font-size: 0.4rem;
+    color: #8E8E93;
+    line-height: 0.84rem;
+    float: left;
+}
+.headb{
+    width: 100vw;
+    height: 1.17rem;
+    background: pink;
+    border-bottom: 0.02rem solid #DCDCDC;
+}
+.type{
+    width: 4.14rem;
+    height: 100%;
+    background: #fff;
+    border-right: 0.01rem solid #454545;
+    float: left;
+}
+.type span{
+    font-family: 'iconfont';
+    color: #363636;
+    font-size: 0.44rem;
+    text-align: center;
+    line-height: 1.17rem;
+    display: block;
+}
+.type:nth-child(3){
+    border-right: none;
+}
+#hot{
+    width: 100%;
+    height: 100%;
+    float: left;
+    margin-top: 2.49rem;
+    margin-bottom: 2rem;
+}
+
+.hot_danpin{
+    width: 50%;
+    height: 11.25rem;
+    background-color: #fff;
+    float: left;
+}
+.hot_danpin1{
+    margin-bottom: 1.5rem;
+}
+.hot_img{
+    width: 100%;
+    height: 8.7rem;
+}
+.hot_title{
+    width: 100%;
+    height: 2.55rem;
+}
+.hot_title h3{
+    font-size: 0.35rem;
+    color: #363636;
+    margin-left: 0.33rem;
+    float: left;
+    font-weight: normal;
+    margin-right: 2.4rem;
+}
+.hot_title1 h3{
+    margin-right: 0;
+}
+
+.hot_meiyuan{
+    font-size: 0.35rem;
+    color: #363636;
+    margin-left: 0.33rem;
+    float: left;
+    margin-right: 5rem;
+    margin-top: 0.13rem;
+}
+.hot_rmb{
+    font-size: 0.35rem;
+    color: #363636;
+    margin-left: 0.33rem;
+    float: left;
+    margin-top: 0.13rem;
+}
+.meizhuang{
+    width: 2.04rem;
+    height: 0.57rem;
+    float: left;
+    margin-left: 0.17rem;
+    margin-top: 0.13rem;
+}
+.dianzan{
+    width: 1.56rem;
+    height: 0.57rem;
+    float: right;
+    margin-top: 0.13rem;
+}
+.xin{
+    width: 0.57rem;
+    height: 0.57rem;
+    float: left;
+}
+.renshu{
+    font-size: 0.28rem;
+    color: #999999;
+    float: left;
+    line-height: 0.57rem;
+}

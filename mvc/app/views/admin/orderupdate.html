@@ -1,0 +1,77 @@
+{include file="admin/header.html"}
+<body>
+<div class="panel admin-panel">
+  <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>修改订单</strong></div>
+  <div class="body-content">
+    <form method="post" class="form-x" action="index.php?m=admin&c=order&a=checkorderupdate">
+      <input type="hidden" name="oid" value="{$data['oid']}">
+      <div class="form-group">
+        <div class="label">
+          <label>商品id：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="{$data['gid']}" name="gid" data-validate="required:请输入商品id" />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>商品数量：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="{$data['gnumber']}" name="gnumber" data-validate="required:请输入商品数量" />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>商品价格：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="{$data['gprice']}" name="gprice" data-validate="required:请输入商品价格" />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>用户id：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="{$data['uid']}" name="uid" data-validate="required:请输入用户id" />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>配送地址：</label>
+        </div>
+        <div class="field">
+          <input type="text" class="input w50" value="{$data['aid']}" name="aid" data-validate="required:请输入详细地址" />
+          <div class="tips"></div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label>订单状态：</label>
+        </div>
+        <div class="field" style="padding-top:8px;">
+          未付款 <input value="0"  type="radio" name="ostate" {if $data['ostate']==0}checked{/if} />
+          已付款 <input value="1" type="radio" name="ostate" {if $data['ostate']==1}checked{/if} />
+          未发货 <input value="2"  type="radio" name="ostate" {if $data['ostate']==2}checked{/if} />
+          配送中 <input value="3" type="radio" name="ostate" {if $data['ostate']==3}checked{/if} />
+          已收货 <input value="4"  type="radio" name="ostate" {if $data['ostate']==4}checked{/if} />
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="label">
+          <label></label>
+        </div>
+        <div class="field">
+          <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="{JS_PATH}/rem.js"></script>
+    <link rel="stylesheet" href="{CSS_PATH}/pictureupdate.css">
+    <link rel="stylesheet" href="{CSS_PATH}/public.css">
+</head>
+<body>
+<!-- 头部开始 -->
+<div id="guanzhu">
+    <div class="guanzhu_top">
+        <a href="index.php?m=index&c=my&a=setting"><span class="hanbao">&lt;</span></a>
+        <div class="gz_box">
+            <span class="gz">修改头像</span>
+        </div>
+    </div>
+</div>
+<!-- 头部结束 -->
+<form action="index.php?m=index&c=my&a=checkpicupdate" method="post">
+    <div class="form-group">
+        <div class="label">
+            <label>头像：</label>
+        </div>
+        <div class="field">
+            <input type="file" id="url1" name="img" class="tupian"/>
+            <input type="button" class="file" id="image1" value="+ 点击上传"  style="float:left;" data-url="index.php?m=index&c=my&a=upload">
+            <div class="tipss"></div>
+            <input type="hidden" name="picture" id="hidden" value="{$data['picture']}">
+            <input type="hidden" name="phone" value="{$data['phone']}">
+        </div>
+    </div>
+    <input type="submit" value="保存" class="save">
+</form>
+</body>
+<script src="{JS_PATH}/jquery.js"></script>
+<script src="{JS_PATH}/upload.js"></script>
+</html>

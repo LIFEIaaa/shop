@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_PATH}/sign.css">
+    <link rel="stylesheet" href="{CSS_PATH}/public.css">
+    <link rel="stylesheet" href="{CSS_PATH}/footer.css">
+    <script src="{JS_PATH}/rem.js"></script>
+    <style>
+        #error{
+            width: 100%;
+            background: #f2f2f2;
+            line-height: 1rem;
+            font-size: 0.44rem;
+            text-align: center;
+            line-height: 1rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+<div class="head">
+    <img src="{IMG_PATH}/cuohao_02.png" alt="" onclick="history.back()">
+    <h3>注册</h3>
+</div>
+<div class="bottom">
+    {include file="index/notice.html"}
+    <form action="index.php?m=index&c=my&a=checksign" class="form" method="post" id="myform">
+        <input type="text" placeholder="手机号码" name="phone">
+        <div class="zn">
+            <h3>中国 +86</h3>
+            <i>&#xe72e;</i>
+        </div>
+        <input type="text" placeholder="请输入验证码" name="code">
+        <div class="send">
+            <span>发送验证码</span>
+        </div>
+        <div id="error"></div>
+        <input type="submit" class="enter" value="下一步">
+        <a href="index.php?m=index&c=my&a=init">
+            <div class="zhuce">
+                <span>密码登录</span>
+            </div>
+        </a>
+    </form>
+</div>
+<script src="{JS_PATH}/jquery.js"></script>
+<script src="{JS_PATH}/jquery.validate.js"></script>
+<script src="{JS_PATH}/yzm.js"></script>
+</body>
+</html>

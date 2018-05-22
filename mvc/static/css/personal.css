@@ -1,0 +1,117 @@
+body{
+    font-size: 12px;
+    background-color: #F7F7F7;
+}
+#guanzhu{
+    width: 100%;
+    height: 1.4rem;
+    background-color: #F6F6F6;
+    float: left;
+    position: fixed;
+    z-index: 1;
+}
+.guanzhu_top{
+    width: 100%;
+    height: 1.39rem;
+    border-bottom: 1px solid #B1B1B1;
+}
+.hanbao{
+    font-size: 0.54rem;
+    color: #979797;
+    margin-left: 0.6rem;
+    float: left;
+    line-height: 1.39rem;
+}
+.gz_box{
+    float: left;
+    margin-left: 4.62rem;
+    line-height: 1.39rem;
+}
+.gz{
+    color: #000000;
+    font-size: 0.46rem;
+    text-align: center;
+}
+.accept{
+    width: 100vw;
+    height: 2.64rem;
+    background: #fff;
+    margin-top: 1.7rem;
+    float: left;
+}
+.accept1{
+    width: 100vw;
+    height: 1.31rem;
+    border-bottom: 0.01rem solid #F6F6F6;
+    background: #fff;
+}
+.accept1 p{
+    font-size: 0.44rem;
+    color: #666666;
+    float: left;
+    display: block;
+    line-height: 1.31rem;
+    margin-left: 0.38rem;
+}
+.not{
+    float: right;
+    width: auto;
+    margin-right: 0.6rem;
+    font-size: 0.38rem;
+    color: #363636;
+    line-height: 1.31rem;
+}
+.accept1 i,.touxiang i{
+    color: #C7C7CC;
+    float: right;
+    line-height: 1.31rem;
+    font-size: 0.44rem;
+    font-weight: bold;
+    margin-right: 0.6rem;
+}
+.accept2{
+    border-bottom: none;
+}
+.picture{
+    width: 100vw;
+    height: 3.72rem;
+    background: #fff;
+    float: left;
+    margin-top: 0.3rem;
+}
+.touxiang{
+    width: 100vw;
+    height: 2.39rem;
+    border-bottom: 0.01rem solid #F6F6F6;
+}
+.touxiang p{
+    display: block;
+    font-size: 0.44rem;
+    line-height: 2.39rem;
+    color: #666666;
+    margin-left: 0.38rem;
+    float: left;
+}
+.pictures{
+    width: 1.51rem;
+    height: 1.51rem;
+    border-radius: 50%;
+    background: pink;
+    margin-top: 0.45rem;
+    margin-right: 0.3rem;
+    overflow: hidden;
+    float: right;
+}
+.touxiang i{
+    line-height: 2.39rem;
+}
+.sexbox{
+    margin-top: 0.3rem;
+    height: 3.96rem;
+}
+.girl{
+    margin-right: 0.3rem;
+}
+.address{
+    height: 2.64rem;
+}

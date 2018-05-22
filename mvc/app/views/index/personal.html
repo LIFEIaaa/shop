@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="{CSS_PATH}/personal.css">
+    <link rel="stylesheet" href="{CSS_PATH}/public.css">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no,initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="{JS_PATH}/rem.js"></script>
+</head>
+<body>
+<!-- 头部开始 -->
+<div id="guanzhu">
+    <div class="guanzhu_top">
+        <a href="index.php?m=index&c=my&a=display"><span class="hanbao">&lt;</span></a>
+        <div class="gz_box">
+            <span class="gz">个人资料</span>
+        </div>
+    </div>
+</div>
+<!-- 头部结束 -->
+<!--账号-->
+<div class="accept">
+    <div class="accept1">
+        <p>账号</p>
+        <span class="not">{$data['phone']}</span>
+    </div>
+    <div class="accept1 accept2">
+        <p>修改密码</p>
+        <i>&gt;</i>
+    </div>
+</div>
+<!--头像-->
+<div class="picture">
+    <a href="index.php?m=index&c=my&a=pictureupdate">
+        <div class="touxiang">
+            <p>头像</p>
+            <i>&gt;</i>
+            <div class="pictures">
+                <img src="{$data['picture']}" alt="">
+            </div>
+        </div>
+    </a>
+    <a href="index.php?m=index&c=my&a=nameupdate">
+        <div class="accept1 accept2">
+            <p>昵称</p>
+            <i>&gt;</i>
+            <span class="not">{$data['username']}</span>
+        </div>
+    </a>
+</div>
+<!--性别-->
+<div class="accept sexbox">
+    <a href="index.php?m=index&c=my&a=sexupdate">
+        <div class="accept1">
+            <p>性别</p>
+            <i>&gt;</i>
+            <span class="not girl">{if $data['sex']==1}男{else}女{/if}</span>
+        </div>
+    </a>
+    <div class="accept1">
+        <p>出生年份</p>
+        <i>&gt;</i>
+    </div>
+    <div class="accept1 accept2">
+        <p>生日</p>
+        <i>&gt;</i>
+    </div>
+</div>
+<!--地址-->
+<div class="accept sexbox address">
+    <div class="accept1">
+        <p>收货地址</p>
+        <i>&gt;</i>
+    </div>
+    <div class="accept1">
+        <p>我的晒单</p>
+        <i>&gt;</i>
+    </div>
+</div>
+</body>
+</html>
